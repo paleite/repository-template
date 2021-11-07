@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/node14",
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true
+  }
+}

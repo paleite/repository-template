@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+"$(yarn bin)"/pretty-quick --staged
+"$(yarn bin)"/lint-staged

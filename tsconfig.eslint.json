@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "composite": true,
+    "noEmit": true
+  },
+
+  "include": [".*.js", "*.js"]
+}

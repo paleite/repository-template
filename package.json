@@ -1,0 +1,46 @@
+{
+  "name": "repository-template",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/paleite/repository-template.git",
+  "license": "MIT",
+  "author": "Patrick Eriksson <paleite@users.noreply.github.com> (https://github.com/paleite)",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json",
+    "clean": "tsc --build tsconfig.build.json --clean",
+    "format": "prettier --write .",
+    "postinstall": "yarn build",
+    "lint": "eslint --cache --ext .js,.ts,.tsx --fix .",
+    "prepare": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
+    "publish-canary": "np prerelease --tag=canary",
+    "publish-stable": "np",
+    "start": "node dist",
+    "test": "jest --coverage",
+    "typecheck": "tsc --project tsconfig.json"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^14.17.31",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^7.32.0",
+    "eslint-files": "^1.0.0",
+    "eslint-plugin-diff": "^1.0.12",
+    "eslint-plugin-jest": "^25.2.2",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "lint-staged": "^11.2.4",
+    "prettier": "^2.4.1",
+    "pretty-quick": "^3.1.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
