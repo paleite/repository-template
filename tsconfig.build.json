@@ -1,10 +1,9 @@
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "@paleite/tsconfig-node14",
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src"
   },
-
   "include": ["src"],
   "exclude": ["**/*.test.ts", "dist"]
 }

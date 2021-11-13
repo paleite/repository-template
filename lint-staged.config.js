@@ -1,5 +1,10 @@
 const { eslintFiles } = require("eslint-files");
 
+/**
+ * @typedef {((string) | ((files: string[]) => string | Promise<string>))[]} LintStagedCommand
+ * @typedef {Record<string, LintStagedCommand>} LintStagedConfig
+ */
+/** @type {LintStagedConfig} */
 module.exports = {
   "*.js": [
     () => "tsc --project tsconfig.eslint.json",
