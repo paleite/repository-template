@@ -1,8 +1,8 @@
 {
-  "name": "repository-template",
+  "name": "__rename_me__",
   "version": "1.0.0",
   "private": true,
-  "repository": "https://github.com/paleite/repository-template.git",
+  "repository": "https://github.com/paleite/__rename_me__.git",
   "license": "MIT",
   "author": "Patrick Eriksson <paleite@users.noreply.github.com> (https://github.com/paleite)",
   "main": "dist/index.js",
@@ -54,6 +54,6 @@
     "typescript": "^4.4.4"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=14.17.0"
   }
 }
