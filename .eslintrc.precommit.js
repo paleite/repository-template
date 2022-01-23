@@ -1,2 +1,2 @@
-/** @type import("eslint").Linter.Config<import("eslint").Linter.RulesRecord> */
+/** @type import("eslint").Linter.Config */
 module.exports = { extends: ["plugin:diff/diff"] };
