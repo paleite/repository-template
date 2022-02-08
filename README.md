@@ -1,3 +1,3 @@
-# repository-template
+# --rename-me--
 
-Repository Template
+<!-- TODO: Write a description -->

@@ -1,12 +1,20 @@
 {
-  "name": "__rename_me__",
+  "name": "--rename-me--",
   "version": "1.0.0",
   "private": true,
-  "repository": "https://github.com/paleite/__rename_me__.git",
+  "description": "",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paleite/--rename-me--.git"
+  },
   "license": "MIT",
   "author": "Patrick Eriksson <paleite@users.noreply.github.com> (https://github.com/paleite)",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "build": "tsc --build tsconfig.build.json",
     "clean": "tsc --build tsconfig.build.json --clean",
