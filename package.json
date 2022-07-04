@@ -20,7 +20,7 @@
     "clean": "tsc --build tsconfig.build.json --clean",
     "format": "prettier --write .",
     "postinstall": "yarn build",
-    "lint": "eslint --cache --ext .js,.ts,.tsx --fix .",
+    "lint": "eslint --cache --ext .js,.ts,.tsx",
     "prepare": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
