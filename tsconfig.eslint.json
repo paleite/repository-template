@@ -1,5 +1,5 @@
 {
-  "extends": "@paleite/tsconfig-node14",
+  "extends": "@paleite/tsconfig-node18",
   "compilerOptions": {
     "allowJs": true,
     "composite": true,
