@@ -1,5 +1,8 @@
 {
   "version": "0.2",
+  "allowCompoundWords": true,
+  "enabledLanguageIds": ["en", "sv"],
+  "ignorePaths": [".env.*", ".env", "*.spec.*", "*.test.*", ".next/**"],
   "words": ["Eriksson"],
   "ignoreWords": ["paleite", "pinst"]
 }
