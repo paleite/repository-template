@@ -5,5 +5,8 @@
     "rootDir": "./src"
   },
   "include": ["src"],
-  "exclude": ["**/*.test.ts", "dist"]
+  "exclude": ["**/*.test.ts", "dist"],
+  "ts-node": {
+    "swc": true
+  }
 }
