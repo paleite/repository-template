@@ -3,7 +3,8 @@
   "compilerOptions": {
     "allowJs": true,
     "composite": true,
-    "noEmit": true
+    "noEmit": true,
+    "ignoreDeprecations": "5.0"
   },
   "include": [".*.js", "*.js"]
 }
